@@ -20,5 +20,3 @@ CREATE TABLE transacoes(
 	PRIMARY KEY(id_transacao),
 	FOREIGN KEY(id_contas) REFERENCES contas(id_contas)
 );
-
-S
